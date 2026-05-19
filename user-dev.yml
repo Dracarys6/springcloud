@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: myshop-user
+  datasource:
+    url: jdbc:mysql://localhost:3307/springcloud?characterEncoding=UTF8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
   client:
